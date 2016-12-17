@@ -1,0 +1,5 @@
+<div class="common-shopnum">
+	<ion-icon name="remove" [class.active]="!num || num<=1" class="common-btnshopremove" (click)="remove()"></ion-icon>
+	<input type="number" min="1" name="name" autocomplete="off" (ngModelChange)="change($event)" [(ngModel)]="numer" value="">
+	<ion-icon name="add" class="common-btnshopadd" (click)="add()"></ion-icon>
+</div>

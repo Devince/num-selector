@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>数量选择组件</h2>
+  <p>
+    方便电商购物时选择商品数量。
+  </p>
+  <num-selector [(numer)]="myNum"></num-selector>
+  <p>
+    当前选择的数量：{{myNum}}
+  </p>
+  <br/>
+  <br/>
+  <p style="color: #58c758;
+    font-size: 16px;">
+    <span style="color: #E91E63;">
+      若满足你的需求，请给我个Star鼓励一下！
+      <br/>
+      你的鼓励将使我分享更多！
+    </span>
+    <br/>
+    <br/>
+    微信关注：davin518
+    <br/>
+    个人主页：<a href="http://davin.xin">未来宝</a>
+  </p>
+</ion-content>
